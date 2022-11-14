@@ -39,8 +39,7 @@ namespace csharp
             };
 
             var app = new GildedRose(Items);
-            //var instTwo = new QualityAnalysis(Items);
-
+            
 
             for (var i = 0; i < 31; i++)
             {
@@ -52,6 +51,8 @@ namespace csharp
                 }
                 Console.WriteLine("");
                 app.UpdateQuality();
+   
+            
             }
         }
     }
